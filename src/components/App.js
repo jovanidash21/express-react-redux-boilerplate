@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import NameList from '../containers/NameList';
+import Name from '../containers/Name';
 
-class App extends Component {
-  render() {
-    return(
-      <h1>Hello {this.props.name}!</h1>
-    )
-  }
-};
+const App = () => (
+    <div>
+        <h1>Hello&nbsp;<Name /></h1>
+        <hr />
+        <h1>Names</h1>
+        <NameList />
+    </div>
+);
 
 export default App;
