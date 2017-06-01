@@ -1,4 +1,4 @@
-# Node.js-Express-React-Redux-Boilerplate
+# Express-React-Redux Boilerplate
 ---
 
 ## Prerequisite
@@ -7,11 +7,11 @@
 ## Installation
 * Clone or download this repository.
 ```
-git clone https://github.com/jovanidash21/nodejs-express-react-redux.git
+git clone https://github.com/jovanidash21/express-react-redux-boilerplate.git
 ```
 * Navigate to the project directory.
 ```
-cd nodejs-express-react-redux
+cd express-react-redux-boilerplate
 ```
 * Install node modules.
 ```
