@@ -29,6 +29,6 @@
     "redux-logger": "^2.8.2",
     "redux-promise-middleware": "^4.2.0",
     "redux-thunk": "^2.2.0",
-    "webpack": "^2.7.0"
+    "webpack": "^3.4.1"
   }
 }
