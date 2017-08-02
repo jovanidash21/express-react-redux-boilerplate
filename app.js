@@ -4,11 +4,23 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var browserSync = require('browser-sync');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+
+// browserSync setup
+if ( process.env.NODE_ENV != 'production' ) {
+  browserSync({
+    files: ['./**/*'],
+    online: false,
+    port: 9000,
+    proxy: 'localhost:3000',
+    ui: false
+  });
+}
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
