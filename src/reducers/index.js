@@ -3,8 +3,8 @@ import namesReducer from './names';
 import activeNameReducer from './activeName';
 
 const reducers = combineReducers({
-    names: namesReducer,
-    activeName: activeNameReducer
+  names: namesReducer,
+  activeName: activeNameReducer
 });
 
 export default reducers;
